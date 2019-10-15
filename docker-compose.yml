@@ -1,0 +1,15 @@
+version: '3'
+services:
+  python:
+    build: .
+    working_dir: '/app'
+    tty: true
+    volumes:
+      - .:/app
+      - virtualenvs:/root/.cache/pypoetry/virtualenvs
+    env_file:
+      - .env
+  
+volumes:
+  virtualenvs:
+    driver: local
