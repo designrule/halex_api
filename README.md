@@ -1,5 +1,6 @@
 # halex_api
 
+halex api unofficial
 
 # インストール
 

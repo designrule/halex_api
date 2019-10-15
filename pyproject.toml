@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "halex_api"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "halex api unofficial"
+authors = ["kkanazaw <kkanazaw@designrule.jp>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
