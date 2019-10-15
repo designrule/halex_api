@@ -1,11 +1,12 @@
 from halex_api import __version__
 from halex_api.api import Api
+import os
 
 
 class TestApi:
 
     def setup_method(self):
-        self.api = Api()
+        self.api = Api(os.environ["AUTH_KEY"])
 
     def test_version(self):
         assert __version__ == '0.1.0'
